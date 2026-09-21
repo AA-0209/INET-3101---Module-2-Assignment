@@ -11,3 +11,8 @@ The bugs in the starter code and how I fixed them:
 - poor handling of edge cases
     - handled zero, negative numbers and others safely
 
+# Call-Stack Tracing: Pick one recursive test case (e.g., to_base_n(129, 16)). Trace the function call stack step-by-step, showing variable states (gnum, base, r) during active recursion and during unwind/printing.
+- First: print_digits(129, 16) → remainder 1
+- Second: print_digits(8, 16) → remainder 8
+- Third: print_digits(0, 16) → remainder 0
+Final Answer: 0x81
