@@ -2,12 +2,12 @@
 
 # Problem & Audit Summary: Explain what bugs were in the starter code and how your refactored solution resolves them.
 The bugs in the starter code and how I fixed them:
--No base bounds check
-    -I made it so only bases 2 through 16 were valid and rejected anything outside that range
--digits above 9 printed incorrectly
-    -made it so it convered remainders into hexadecimal letters a-f
--missing base prefixes
-    -added 0 for octal and 0x for hexadecimal output
--poor handling of edge cases
-    -handled zero, negative numbers and others safely
+- No base bounds check
+    - I made it so only bases 2 through 16 were valid and rejected anything outside that range
+- digits above 9 printed incorrectly
+    - made it so it convered remainders into hexadecimal letters a-f
+- missing base prefixes
+    - added 0 for octal and 0x for hexadecimal output
+- poor handling of edge cases
+    - handled zero, negative numbers and others safely
 
